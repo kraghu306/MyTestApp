@@ -25,7 +25,7 @@ namespace MyTestApp
             app.Run(async (context) =>
             {
                 Console.WriteLine("Request for "+ context.Request.Path);
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World from MAC OS using Visual Studio Code.. #awesome!");
             });
         }
 
